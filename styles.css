@@ -12,7 +12,7 @@
 
 .presentation-container {
     height: 100vh;
-    background: linear-gradient(to bottom right, rgb(20, 20, 20), rgb(85, 85, 85));
+    background: linear-gradient(to bottom, rgb(20, 20, 20), rgb(85, 85, 85));
 }
 
     div.aboutme {
@@ -60,8 +60,9 @@
             }
 
             button.contactme:hover {
-                background-color: rgb(255, 30, 30);
+                background-color: rgb(222, 255, 32);
                 box-shadow: 0px 0px 3px 1px rgb(0, 0, 0);
+                color: black;
             }
 
         img.photoke{
