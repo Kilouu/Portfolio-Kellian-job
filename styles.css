@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    font-family: 'Sriracha', cursive;
+    font-family: 'Sriracha', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
     font-family: 'Source Sans Pro', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
@@ -13,115 +13,66 @@
     src: url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
 }
 
-/*____________________FOND DU SITE____________________*/
+/*____________________PAGE ACCEUIL____________________*/
 
 .presentation-container {
     height: 100vh;
-    background: url(/assets/fond.jpg) center/cover;
+    background: linear-gradient(to bottom right, rgb(20, 20, 20), rgb(85, 85, 85));
 }
 
-.box-card {
-    position: relative;
-    height: 85%;
-    margin-left: 5%;
-    margin-right: 5%;
-    top: 7%;
-    /* animation: backgroundanimation 20s forwards; */
-}
-
-/* @keyframes backgroundanimation {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1);
-    }
-} */
-
-/*____________________FOUNDATION CARTE____________________*/
-
-.card {
-    position: relative;
-    height: 92%;
-    top: 4%;
-    width: 86%;
-    left: 7%;
-    border-radius: 70px;
-    background-color: rgba(181, 184, 185, 0.575);
-    backdrop-filter: blur(6px);
-    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.658);
-    border: 1px solid;
-}
-
-/*____________________CARTE SUR LE "ABOUT ME"____________________*/
-
-.aboutme-card {
-    position: relative;
-    height: 98%;
-    top: 1%;
-    width: 98%;
-    left: 1%;
-}
-
-    .photodeprofil {
-        position: absolute;
-        height: 42%;
-        right: 11%;
-        top: 28%;
-    }
-
-
-
-    .aboutmetxt {
-        position: absolute;
-        width: 62%;
-        top: 30%;
-        left: 7%;
-    }
-
-        h1 {
-            position: relative;
-            font-size: 60px;
-            font-family: 'Fira Sans', sans-serif;
-        }
-
-        p.age {
-            position: relative; 
-            font-size: 22px;
-            top: 5px;
-            font-family: 'Source Sans Pro', sans-serif;
-        }
-        
-        p.biographie {
-            position: relative;
-            font-size: 40px;
-            top: 15px;
-            font-family: 'Sriracha', cursive;
-        }
-
-
-
-    div.contactme {
+    div.aboutme {
         position: relative;
-        width: 62%;
-        top: 70%;
-        left: 7%
+        width: 50%;
+        height: 100%;
+        left: 15%;
+        font-family: 'Fira Sans', sans-serif;
     }
+
+        div.aboutmetxt {
+            position: relative;
+            top: 34%;
+        }
+
+            h1 {
+                font-size: 60px;
+                color: rgb(221, 217, 217);
+            }
+
+                strong.kellian {
+                    color: rgb(255, 0, 0);
+                }
+
+            p.biographie {
+                font-size: 35px;
+                padding-top: 2px;
+                color: rgb(182, 182, 182);
+            }
 
         button.contactme {
-            background-color: rgb(64, 64, 231);
-            color: azure;
-            font-size: 33px;
-            width: 35%;
-            padding: 3%;
-            border-radius: 26px;
-            border: none;
-            box-shadow: 0px 0px 5px 2px rgb(58, 53, 53);
-        }
-
-        button.contactme:hover {
-            background-color: rgb(98, 88, 231);
+            position: relative;
+            top: 42%;
+            font-size: 30px;
             color: rgb(255, 255, 255);
+            background-color: rgb(255, 30, 30);
+            border: none;
+            border-radius: 25px;
+            box-shadow: 0px 0px 5px 1px rgb(230, 0, 0);
+            width: 250px;
+            height: 90px;
         }
 
-        /* zdzd */
+    img.photoke{
+        position: absolute;
+        height: 100%;
+        bottom: 0%;
+        right: 5%;
+    }
+
+
+
+/*____________________DESCRIPTION____________________*/
+
+div.description {
+    height: 50vh;
+    border-top: 5px solid rgb(255, 0, 0);
+}
