@@ -16,8 +16,7 @@
 }
 
     div.aboutme {
-        position: relative;
-        width: 100%;
+        width: 85%;
         height: 100%;
         font-family: 'Fira Sans', sans-serif;
     }
@@ -60,7 +59,7 @@
             }
 
             button.contactme:hover {
-                background-color: rgb(222, 255, 32);
+                background-color: rgba(255, 0, 0, 0.041);
                 box-shadow: 0px 0px 3px 1px rgb(0, 0, 0);
                 color: black;
             }
