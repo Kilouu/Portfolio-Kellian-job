@@ -75,7 +75,7 @@
 
 /*____________________DESCRIPTION____________________*/
 
-div.description {
+div.description-container {
     position: relative;
     min-height: 500px;
     border-top: 5px solid rgb(255, 0, 0);
@@ -101,3 +101,65 @@ div.description {
             color: red;
             font-size: 89px;
         }
+
+
+
+
+/*____________________COMPETENCE____________________*/
+
+div.competence-container {
+    min-height: 100vh;
+    background-color: rgb(75, 167, 253);
+}
+
+    h2 {
+        font-size: 80px;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        color: rgb(217, 252, 252);
+    }
+
+    div.competencelist {
+        background-color: azure;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 10px;
+    }
+    
+        div.competence {
+            background-color: rgb(233, 107, 107);
+            margin: 40px;
+            width: 450px;
+        }
+
+                button.block-ferme {
+                    width: 450px;
+                    background-color: rgb(139, 230, 253);
+                    border: 1px solid rgb(21, 161, 255);
+                    border-radius: 15px;
+                    height: 70px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                    span.titledropdown{
+                        font-family: 'Oswald', sans-serif;
+                        font-size: 32px;
+                    }
+
+                    img.flechedown {
+                        height: 40px;
+                    }
+
+
+
+
+
+
+
+
+
+
+
