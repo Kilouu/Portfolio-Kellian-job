@@ -108,8 +108,8 @@ div.description-container {
 /*____________________COMPETENCE____________________*/
 
 div.competence-container {
-    min-height: 100vh;
-    background-color: rgb(75, 167, 253);
+    min-height: 101vh;
+    background-color: rgb(64, 158, 247);
 }
 
     h2 {
@@ -117,10 +117,10 @@ div.competence-container {
         font-family: 'Oswald', sans-serif;
         text-align: center;
         color: rgb(217, 252, 252);
+        padding-top: 20px;
     }
 
     div.competencelist {
-        background-color: azure;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -128,32 +128,80 @@ div.competence-container {
     }
     
         div.competence {
-            background-color: rgb(233, 107, 107);
+            background-color: rgb(73, 214, 250);
+            border-radius: 15px;
             margin: 40px;
             width: 450px;
+            min-height: 190px;
+            border: 3px solid rgb(0, 0, 0);
+            box-shadow: 0px 0px 10px 2px rgb(0, 0, 0);
         }
 
                 button.block-ferme {
                     width: 450px;
-                    background-color: rgb(139, 230, 253);
-                    border: 1px solid rgb(21, 161, 255);
-                    border-radius: 15px;
+                    background-color: rgba(0, 255, 255, 0);
                     height: 70px;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+                    border: none;
+                    border-top-left-radius: 15px;
+                    border-top-right-radius: 15px;
+                    border-bottom: 3px solid;
                 }
 
-                    span.titledropdown{
-                        font-family: 'Oswald', sans-serif;
-                        font-size: 32px;
-                    }
+                        span.titledropdown{
+                            font-family: 'Oswald', sans-serif;
+                            font-size: 32px;
+                            margin-left: 19px;
+                            margin-bottom: 5px;
+                        }
 
-                    img.flechedown {
-                        height: 40px;
-                    }
+                        img.flechedown {
+                            height: 80px;
+                        }
+
+                div.block-ouvert {
+
+                }
+
+                        div.comp {
+                            display: flex;
+                            height: 120px;
+                            align-items: center;
+                            padding-left: 50px;
+                            justify-content: space-between;
+                        }
+
+                                div.logocomp {
+                                    padding-right: 80px;
+                                }
+
+                                        img.logohtml{
+                                            height: 70px;
+                                            position: relative;
+                                            left: 5px;
+                                        }
+
+                                        img.logocss{
+                                            height: 70px;
+                                        }
+
+                                        img.logopython{
+                                            height: 70px;
+                                        }
+
+                                        li {
+                                            list-style-type: none;
+                                            font-size: 30px;
+                                            font-family: 'Oswald', sans-serif;
+                                        }
 
 
+            div.competence:hover{
+                background-color: rgb(255, 252, 46);
+                border: 3px solid rgb(0, 0, 0);
+            }
 
 
 
