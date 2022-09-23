@@ -108,7 +108,7 @@ div.description-container {
 /*____________________COMPETENCE____________________*/
 
 div.competence-container {
-    min-height: 101vh;
+    min-height: 100vh;
     background-color: rgb(64, 158, 247);
 }
 
@@ -124,13 +124,12 @@ div.competence-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        margin: 10px;
     }
     
         div.competence {
             background-color: rgb(73, 214, 250);
             border-radius: 15px;
-            margin: 40px;
+            margin: 30px;
             width: 450px;
             min-height: 190px;
             border: 3px solid rgb(0, 0, 0);
@@ -202,6 +201,7 @@ div.competence-container {
             div.competence:hover{
                 background-color: rgb(255, 252, 46);
                 border: 3px solid rgb(0, 0, 0);
+                transform: scale(1.02);
             }
 
 
